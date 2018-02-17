@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!--Meta Tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Favicon-->
+    <link rel="icon" href="https://www.fulcrumgallery.com/product-images/P803651-10/closeup-of-tyrannosaurus-rex-dinosaur-with-mouth-open.jpg" type="image/jpg" sizes="16x16">
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    
+    <!--Reset CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!--KG CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">   
+
+    <title>Coding Bootcamp - HW3</title>
+
+</head>
+
+<body>
+
+    <section id="mainbox">
+        <div class="panel-body text-center">
+
+
+            <h1 id="dino-game">Name That Dinosaur!</h1>
+            <sub><b>Click any letter to begin...</b></sub>
+            <div class="panel-body text-left">
+            <br>
+
+                <div class="container">
+
+                    <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              Letters Left: 
+                              <span id="letters-left" class="badge badge-primary badge-pill"></span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              Wrong Guesses
+                              <span id="wrong-guesses" class="badge badge-primary badge-pill"></span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                              Wins
+                              <span id="wins" class="badge badge-primary badge-pill"></span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                               Losses
+                               <span id="losses" class="badge badge-primary badge-pill"></span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Dino Name:
+                                <span id="blankWord" class="badge badge-primary badge-pill"></span>
+                            </li>
+                          </ul>
+
+                    <!-- KG JavaScript-->
+                    <script src="assets/javascript/game.js"></script>
+                    <!--jQuery first, then Popper.js, then Bootstrap JS-->
+                    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+                               
+                </div>
+        </div>
+    </section>
+</body>
+
+</html>

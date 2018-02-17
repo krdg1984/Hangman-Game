@@ -1,0 +1,33 @@
+body {
+    background-image: url("https://1.bp.blogspot.com/-9ozVc8Z6tBA/Ve_P3KyMu0I/AAAAAAAAQMo/GwDhlwdIywU/w1200-h630-p-k-no-nu/dinosaurs-wallpaper-4%25281%2529.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#mainbox {
+    max-width: 400px;
+    margin-left: 900px;
+    margin-right: auto;
+    margin-top: 35px;
+    text-align: center;
+    padding: 28px;
+    background-color: #b2854e#b85; 
+}
+
+/* Background not changing :-(*/ 
+.container {
+    background-color: #b2854e#b85;
+    font:bolder;
+}
+
+#dino-game {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font:bolder;
+
+}
+
+sub {
+    padding-bottom: 100px;
+}
